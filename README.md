@@ -26,7 +26,7 @@ This data Analysis Based on a superstore sales dataset which I have taken from K
 - Added $ symbol to Discount, price, shipping cost, Profit, Sales as these columns are currency.
 - Formatted the Order date and ship date into (mmmm,d,yyyy) format.
 - Categorize the columns ( Sate  state or province, city  city, postal code postal code).
-####Breaking down the Tables:
+#### Breaking down the Tables:
 All the details , like customer details, product details and order details are in the same table. Separated the Customer details into DimCustomers table and product details into DimProducts . These are dimension tables.
 
 ### Step 3: Analyzing data
