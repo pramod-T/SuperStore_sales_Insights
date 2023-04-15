@@ -31,7 +31,7 @@ All the details , like customer details, product details and order details are i
 
 ### Step 3: Analyzing data
 
-Know we have cleaned data for analysis. Look at the data and find the connections between the columns . 
+now we have cleaned data for analysis. Look at the data and find the connections between the columns . 
 Created calculated columns like columns for year, Quarter, Month, Days to ship by using the order date and ship date columns.
 - Days to ship = DATEDIF(Orders[order date].[Date],Orders[ship date].[Date])
 - Month = month(Orders[order date])
